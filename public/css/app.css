@@ -1,0 +1,18 @@
+video {
+    background-size: cover;
+    position: fixed;
+    width: 100% !important;
+    height: auto !important;
+    z-index: 1;
+}
+
+#TitreVideo {
+    z-index: 2 !important;
+    width: 100%;
+    background-color:rgba(3, 111, 123, 0.4);
+}
+#btnCTA1
+{
+     background-color: rgba(254,198, 79,1);
+ }
+
