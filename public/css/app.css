@@ -1,18 +1,75 @@
+html{
+  font-size: 100%;
+}
 video {
     background-size: cover;
-    position: fixed;
     width: 100% !important;
     height: auto !important;
     z-index: 1;
+    filter: brightness(50%);
 }
 
 #TitreVideo {
     z-index: 2 !important;
-    width: 100%;
-    background-color:rgba(3, 111, 123, 0.4);
 }
 #btnCTA1
 {
-     background-color: rgba(254,198, 79,1);
+    background-color: rgba(3, 113, 123,1);
  }
 
+#navbar
+{
+    z-index: 10000;
+}
+
+/*police*/
+h1
+{
+    font-size: 5vw !important;
+}
+.lead
+{
+    font-size: 1.5vw !important;
+}
+
+#btnCTA1
+{
+    font-size: 2vw;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+::-webkit-scrollbar-track {
+    background: #03717B;
+}
+.mt-n2 {
+    margin-top: -5px !important;
+}
+
+
+/*sticky navbar*/
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+
+ .content {
+    padding-top: 60px !important;
+}
