@@ -3,14 +3,10 @@ html{
 }
 video {
     background-size: cover;
-    width: 100% !important;
-    height: auto !important;
+    width: 100% ;
+    height: auto ;
     z-index: 1;
     filter: brightness(50%);
-}
-
-#TitreVideo {
-    z-index: 2 !important;
 }
 #btnCTA1
 {
@@ -19,17 +15,17 @@ video {
 
 #navbar
 {
-    z-index: 10000;
+    z-index: 9999;
 }
 
 /*police*/
 h1
 {
-    font-size: 5vw !important;
+    font-size: 5vw ;
 }
 .lead
 {
-    font-size: 1.5vw !important;
+    font-size: 1.5vw ;
 }
 
 #btnCTA1
@@ -54,7 +50,7 @@ h1
     background: #03717B;
 }
 .mt-n2 {
-    margin-top: -5px !important;
+    margin-top: -6px ;
 }
 
 
@@ -65,11 +61,62 @@ h1
 }
 
 .sticky {
-    position: fixed !important;
+    position: fixed ;
     top: 0;
     width: 100%;
 }
 
  .content {
-    padding-top: 60px !important;
+    padding-top: 60px ;
+}
+
+/* icone pour le bouton menu petit ecran */
+#btnmenu
+{
+    border: none;
+}
+#btnmenu:focus
+{
+    outline: none;
+}
+
+#collapsingNavbarTop{
+    font-size: 1vw;
+}
+
+
+/*qui suis je*/
+/*#quisuisje {*/
+/*    overflow: visible; !* For IE *!*/
+/*    padding: 0;*/
+/*    !*border: none;*!*/
+/*    border-top: medium double #03717B;*/
+/*    text-align: center;*/
+/*}*/
+/*#quisuisje:after {*/
+/*    content: "Qui suis-je ?";*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    top: -1em;*/
+/*    font-size: 1.5em;*/
+/*    padding: 0 0.25em;*/
+/*    background: white;*/
+/*}*/
+
+#tiret:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 230px;
+    height: 1px;
+    background-color: rgb(3, 113, 123)  ;
+}
+#tiret:after{
+    content: " ";
+    background-color: rgb(254,198,79);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: -7px;
+    left:50%;
 }
