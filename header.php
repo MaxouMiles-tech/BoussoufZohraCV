@@ -49,7 +49,7 @@
         </video>
     </div>
     <!--Barre de navigation -->
-    <nav class="navbar navbar-dark navbar-expand-md color-primary-0 mt-n2  " id="navbarTop">
+    <nav class="navbar navbar-dark navbar-expand-lg color-primary-0 mt-n2  " id="navbarTop">
         <a href="index.php"  class="navbar-brand d-flex w-50 mr-auto pl-3 ">
             <img src="public/images/favicon/favicon.png" alt="Favicon ZB" id="faviconZB">
         </a>

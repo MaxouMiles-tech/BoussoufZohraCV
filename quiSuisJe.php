@@ -1,18 +1,18 @@
-<div class="row  justify-content-around">
-    <div class="col-md-6 m-auto" id="backJaune">
-        <div class="about-img">
+<div class="row">
+    <div class="col-lg-6 " id="backJaune">
+        <div class="about-img d-flex justify-content-center">
             <img src="public/images/moi.jpg" alt="Photo de montagne" id="moi">
         </div>
-
     </div>
 
-    <div class="col-md-6 pt-5">
+    <div class="col-lg-6 pt-5 d-flex flex-column">
         <div class="about-item">
-            <div class="about-title">
-                <h2 id="tiret">Qui suis-je ?</h2>
+            <div class="col-6 about-title m-auto text-center">
+                <h2>Qui suis-je ?</h2>
             </div>
+            <div class="col-5 col-lg-3 p-0 m-auto" id="tiret"></div>
             <div class="about-content">
-                <h2>Développeur / concepteur d'applications Web</h2>
+                <h3>Développeur / concepteur d'applications Web</h3>
                 <p> Diplômée en chimie organique et passionnée par le Digital. Je suis dynamique, rigoureuse et
                     spontanée. </p>
 

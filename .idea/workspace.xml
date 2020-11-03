@@ -20,43 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145123d5-1643-4d84-8044-82da584d010f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/Moi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon/ms-icon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/moi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiSuisJe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banniere.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/videos/banniere.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiSuisJe.php" beforeDir="false" afterPath="$PROJECT_DIR$/quiSuisJe.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +32,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,10 +69,10 @@
     <property name="add_unversioned_files" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/header.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/header.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -114,7 +84,10 @@
       <recent name="C:\Users\80010-44-05\PhpstormProjects\untitled\public" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="145123d5-1643-4d84-8044-82da584d010f" name="Default Changelist" comment="" />
@@ -136,23 +109,27 @@
       <workItem from="1603882881680" duration="13324000" />
       <workItem from="1603898048527" duration="1512000" />
       <workItem from="1603957323898" duration="21304000" />
+      <workItem from="1604053416590" duration="226000" />
+      <workItem from="1604054429437" duration="5243000" />
+      <workItem from="1604161466154" duration="4352000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -186,14 +163,19 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="255" y="447" key="NewPhpFileDialog/1680.-36.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603962522369" />
-    <state x="377" y="149" key="SettingsEditor" timestamp="1603982264450">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="307" y="53" key="SettingsEditor" timestamp="1604055019650">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="307" y="53" key="SettingsEditor/0.0.1366.768/-1920.-149.1920.1080@0.0.1366.768" timestamp="1604055019650" />
     <state x="377" y="149" key="SettingsEditor/1680.-36.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603982264450" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1603892356748">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1680.-36.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603892356748" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1604161469789">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768/-1920.-149.1920.1080@0.0.1366.768" timestamp="1604161469789" />
     <state x="136" y="55" width="1412" height="727" key="dock-window-1" timestamp="1603813000445">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
