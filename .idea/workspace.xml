@@ -21,10 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="145123d5-1643-4d84-8044-82da584d010f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quiSuisJe.php" beforeDir="false" afterPath="$PROJECT_DIR$/quiSuisJe.php" afterDir="false" />
+=======
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,10 +111,16 @@
       <workItem from="1603870765978" duration="11568000" />
       <workItem from="1603882881680" duration="13324000" />
       <workItem from="1603898048527" duration="1512000" />
+<<<<<<< Updated upstream
       <workItem from="1603957323898" duration="21304000" />
       <workItem from="1604053416590" duration="226000" />
       <workItem from="1604054429437" duration="5243000" />
       <workItem from="1604161466154" duration="4352000" />
+=======
+      <workItem from="1603957323898" duration="21609000" />
+      <workItem from="1603986024124" duration="67000" />
+      <workItem from="1604492617286" duration="25000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
