@@ -6,6 +6,8 @@ include("header.php");
     <div class="content">
         <?php
         include("quiSuisJe.php");
+
+        include("competences.php");
         ?>
     </div>
 </div>

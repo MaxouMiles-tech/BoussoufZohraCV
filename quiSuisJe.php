@@ -8,11 +8,11 @@
     <div class="col-lg-6 pt-5 d-flex flex-column">
         <div class="about-item">
             <div class="col-6 about-title m-auto text-center">
-                <h2>Qui suis-je ?</h2>
+                <h2  id="quiSuisJe">Qui suis-je ?</h2>
             </div>
             <div class="col-5 col-lg-3 p-0 m-auto" id="tiret"></div>
-            <div class="about-content">
-                <h3>Développeur / concepteur d'applications Web</h3>
+            <div class="about-content text-justify" >
+                <h3 class="pt-3 pb-3 text-center">Développeur / concepteur d'applications Web</h3>
                 <p> Diplômée en chimie organique et passionnée par le Digital. Je suis dynamique, rigoureuse et
                     spontanée. </p>
 
@@ -32,8 +32,5 @@
                     mesure de la performance.</p>
             </div>
         </div>
-        <!--    <hr id="quisuisje">-->
-
-
     </div>
 </div>
