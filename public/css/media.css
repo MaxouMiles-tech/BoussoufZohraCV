@@ -24,6 +24,11 @@
     {
         font-size: 2vw;
     }
+    .competence-img
+    {
+        width: 60%;
+        height: auto;
+    }
 
 }
 
@@ -52,6 +57,11 @@
     #btnCTA1, #collapsingNavbarTop
     {
         font-size: 3vw;
+    }
+    .competence-img
+    {
+        width: 25%;
+        height: auto;
     }
 
 }

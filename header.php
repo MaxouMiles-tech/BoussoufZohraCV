@@ -64,7 +64,7 @@
                     <a class="nav-link" href="#quiSuisJe">Qui suis-je?<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="#">Compétences</a>
+                    <a class="nav-link" href="#competences">Compétences</a>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="#">Expériences</a>

@@ -93,9 +93,27 @@ video {
     width: 100%;
     height: 20px;
 }
+.fa-star {
+    color: #03717B;
+}
 
-.competence-img
+.checked {
+    color: rgb(254,198,79);
+}
+
+
+#logoZB
 {
-    width: 50%;
+    width: 60%;
+    height: auto;
+    position: relative;
+    transition:all .1s;
+
+}
+
+.selector .figure
+{
+    width: 20vw;
     height: auto;
 }
+
