@@ -29,7 +29,10 @@
         width: 60%;
         height: auto;
     }
-
+#btnZB{
+    width: 30vw;
+    height: 30vw;
+}
 }
 
 /*Petit ecran*/
@@ -62,6 +65,23 @@
     {
         width: 25%;
         height: auto;
+    }
+
+    #btnZB{
+        width: 80vw;
+        height: 80vw;
+    }
+
+
+    /*---------------------------*/
+
+    .no-csstransforms .skills-item{
+        width:15.15px;
+        margin-left: -7.5em;
+    }
+    .no-csstransforms .skills-item li{
+        height:3em;
+        width:3em;
     }
 
 }
