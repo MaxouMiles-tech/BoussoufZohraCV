@@ -8,6 +8,8 @@ include("header.php");
         include("quiSuisJe.php");
 
         include("competences.php");
+
+        include("timeLine.php");
         ?>
     </div>
 </div>

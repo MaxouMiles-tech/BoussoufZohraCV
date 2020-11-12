@@ -2,6 +2,7 @@
 
 
 <!-- Optional JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script src="public/js/app.js"></script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

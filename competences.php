@@ -1,77 +1,17 @@
 <div class="row pt-5">
     <div class="skills-item m-auto">
         <div class="col competence-title m-auto text-center">
-            <h2 id="competences">Compétences</h2>
+            <h2 class=" wow animate__bounce " id="competences">Compétences</h2>
         </div>
         <div class="col p-0 m-auto" id="tiret"></div>
     </div>
 </div>
-<div class="row">
-    <div class="col-lg-6 selector">
+<div class="row mt-3 d-flex mx-3 justify-content-between">
 
-            <button type="button" class="btn" id="btnZB"></button>
-<div class="skills-item" id="skills-item">
-    <ul class="list-unstyled d-lg-flex flex-lg-column p-0 m-0">
-        <li class="d-flex justify-content-center">
-            <figure class="figure text-center ">
-                <img src="public/images/competence/apprentissage.png" alt="apprentissage" id="apprentissage">
-                <figcaption class="d-md-block d-none figure-caption text-center">Capacité d'apprentissage</figcaption>
-            </figure>
-        </li>
-        <li class="d-flex justify-content-center">
-            <figure class="figure text-center">
-                <img src="public/images/competence/communication.png" alt="communication" id="communication">
-                <figcaption class="d-md-block d-none figure-caption text-center">Communication</figcaption>
-            </figure>
-        </li>
-        <li class="d-flex justify-content-center">
-            <figure class="figure text-center">
-                <img src="public/images/competence/reflexion.png" alt="réflexion" id="réflexion">
-                <figcaption class="d-md-block d-none figure-caption text-center">Réflexion</figcaption>
-            </figure>
-        </li>
-        <li class="d-flex justify-content-center">
-            <figure class="figure text-center">
-                <img src="public/images/competence/analyse.png" alt="capacité d'analyse" id="analyse">
-                <figcaption class="d-md-block d-none figure-caption text-center">Capacité d'analyse</figcaption>
-            </figure>
-        </li>
-        <li class="d-flex justify-content-center">
-            <figure class="figure text-center">
-                <img src="public/images/competence/planification.png" alt="planification" id="planification">
-                <figcaption class="d-md-block d-none figure-caption text-center">Planification</figcaption>
-            </figure>
-        </li>
-        <li class="d-flex justify-content-center">
-            <figure class="figure text-center">
-                <img src="public/images/competence/time.png" alt="patience" id="patience">
-                <figcaption class="d-md-block d-none figure-caption text-center">Patience</figcaption>
-            </figure>
-        </li>
-        <li class="d-flex justify-content-center">
-            <figure class="figure text-center">
-                <img src="public/images/competence/connected-people.png" alt="esprit d'équipe" id="equipe">
-                <figcaption class="d-md-block d-none figure-caption text-center">Esprit d'équipe</figcaption>
-            </figure>
-        </li>
-        <li class="d-flex justify-content-center">
-            <figure class="figure text-center">
-                <img src="public/images/competence/language.png" alt="langues" id="langue">
-                <figcaption class="d-md-block d-none figure-caption text-center">Langues</figcaption>
-            </figure>
-        </li>
-    </ul>
-
-
-</div>
-        <div id="cn-overlay" class="cn-overlay"></div>
-
-
-    </div>
-    <div class=" col-lg-6 d-flex flex-lg-row  flex-wrap">
-        <div class="col-lg-4 d-flex flex-column justify-content-center mt-3">
+    <div class="it-skills col-lg-5 d-flex flex-lg-row flex-wrap mb-sm-0 mb-5">
+        <div class="col-sm-4 col-6 d-flex flex-column justify-content-center ">
             <img class="competence-img mx-auto my-0" src="public/images/competence/html.png" alt="Logo HTML" id="html">
-            <div class="mt-2 text-center ">
+            <div class="mt-2 text-center mb-3 ">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -79,9 +19,11 @@
                 <span class="fa fa-star"></span>
             </div>
         </div>
-        <div class="col-lg-4  d-flex flex-column justify-content-center mt-3">
+
+
+        <div class="col-sm-4  col-6 d-flex flex-column justify-content-center">
             <img class="competence-img mx-auto my-0" src="public/images/competence/css.png" alt="Logo CSS" id="css">
-            <div class="mt-2 text-center">
+            <div class="mt-2 text-center mb-3">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -89,9 +31,9 @@
                 <span class="fa fa-star"></span>
             </div>
         </div>
-        <div class="col-lg-4  d-flex flex-column justify-content-center mt-3">
+        <div class="col-sm-4  col-6 d-flex flex-column justify-content-center">
             <img class="competence-img mx-auto my-0" src="public/images/competence/js.png" alt="Logo JS" id="js">
-            <div class="mt-2 text-center">
+            <div class="mt-2 text-center mb-3">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -100,9 +42,9 @@
             </div>
 
         </div>
-        <div class="col-lg-4  d-flex flex-column justify-content-center mt-3">
+        <div class="col-sm-4  col-6 d-flex flex-column justify-content-center ">
             <img class="competence-img mx-auto my-0" src="public/images/competence/php.png" alt="Logo PHP" id="php">
-            <div class="mt-2 text-center">
+            <div class="mt-2 text-center mb-3">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -110,9 +52,10 @@
                 <span class="fa fa-star"></span>
             </div>
         </div>
-        <div class="col-lg-4  d-flex flex-column justify-content-center mt-3">
-            <img class="competence-img mx-auto my-0" src="public/images/competence/symfony.png" alt="Logo symfony" id="symfony">
-            <div class="mt-2 text-center">
+        <div class="col-sm-4  col-6 d-flex flex-column justify-content-center ">
+            <img class="competence-img mx-auto my-0" src="public/images/competence/symfony.png" alt="Logo symfony"
+                 id="symfony">
+            <div class="mt-2 text-center mb-3">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -120,9 +63,9 @@
                 <span class="fa fa-star"></span>
             </div>
         </div>
-        <div class="col-lg-4  d-flex flex-column justify-content-center mt-3">
+        <div class="col-sm-4  col-6 d-flex flex-column justify-content-center ">
             <img class="competence-img mx-auto my-0" src="public/images/competence/java.png" alt="Logo java" id="java">
-            <div class="mt-2 text-center">
+            <div class="mt-2 text-center mb-3">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -131,6 +74,10 @@
             </div>
         </div>
     </div>
+    <div class="col-lg-5 soft-skills  mt-sm-0 mt-5 ">
+        <img class="img-fluid wow animate__fadeInRight" src="public/images/softSkills.png" alt="=Soft Skills">
+    </div>
+
 
 
 </div>

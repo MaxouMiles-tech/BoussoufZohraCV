@@ -1,14 +1,16 @@
-<div class="row">
-    <div class="col-lg-6 " id="backJaune">
+
+
+<div class="row"  id="quiSuisJe">
+    <div class="col-lg-6 pt-3" id="backJaune">
         <div class="about-img d-flex justify-content-center">
-            <img src="public/images/moi.jpg" alt="Photo de montagne" id="moi">
+            <img class="wow animate__fadeInLeft" src="public/images/moi.jpg" alt="Photo de montagne" id="moi">
         </div>
     </div>
 
-    <div class="col-lg-6 pt-5 d-flex flex-column">
-        <div class="about-item">
+    <div class="col-lg-6 d-flex flex-column">
+        <div class="about-item" >
             <div class="col-6 about-title m-auto text-center">
-                <h2  id="quiSuisJe">Qui suis-je ?</h2>
+                <h2 class="wow animate__bounce">Qui suis-je ?</h2>
             </div>
             <div class="col-5 col-lg-3 p-0 m-auto" id="tiret"></div>
             <div class="about-content text-justify" >

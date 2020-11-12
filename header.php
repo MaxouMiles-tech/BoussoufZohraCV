@@ -16,6 +16,8 @@
     <link rel="stylesheet" href='public/css/colors.css'/>
 <!--    font-awesom-->
     <script src="https://kit.fontawesome.com/1a025099e7.js" crossorigin="anonymous"></script>
+<!--animation-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <!--Favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="public/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="public/images/favicon/apple-icon-60x60.png">
@@ -60,8 +62,8 @@
         </button>
         <div class="navbar-collapse collapse w-100 " id="collapsingNavbarTop">
             <ul class="nav navbar-nav ml-auto w-100 justify-content-end ">
-                <li class="nav-item active mr-3">
-                    <a class="nav-link" href="#quiSuisJe">Qui suis-je?<span class="sr-only">(current)</span></a>
+                <li class="nav-item  mr-3">
+                    <a class="nav-link" href="#quiSuisJe">Qui suis-je?</a>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="#competences">Compétences</a>
