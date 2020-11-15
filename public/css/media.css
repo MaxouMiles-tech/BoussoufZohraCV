@@ -1,4 +1,6 @@
+/*------------------------------------------------------------------------------*/
 /*Grand ecran*/
+/*------------------------------------------------------------------------------*/
 
 @media screen and (min-width:768px)
 {
@@ -19,23 +21,31 @@
     {
         font-size: 1.5vw ;
     }
-
     #btnCTA1
     {
         font-size: 2vw;
     }
+
+    /*------------------------------------------------------------------------------*/
+    /*skills*/
     .competence-img
     {
         width: 70%;
         height: auto;
     }
+    /*------------------------------------------------------------------------------*/
+
+
+
+
+
 
 }
-
-/*Petit ecran*/
-
-@media screen and (max-width:768px)
-{
+/*---------------------------------------------------------------------------------*/
+/*Extra petit ecran*/
+/*---------------------------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+    /*header*/
     #TitreVideo {
         z-index: 6 ;
         height: 20em;
@@ -53,15 +63,87 @@
     {
         font-size: 2.5vw ;
     }
-
     #btnCTA1, #collapsingNavbarTop
     {
         font-size: 3vw;
     }
+
+    /*------------------------------------------------------------------------------*/
     .competence-img
     {
         width: 40%;
         height: auto;
     }
 
+}
+/*----------------------------------------------------------------------------------*/
+/*Petit ecran*/
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 992px) {
+    /* icone pour le bouton menu petit ecran */
+    #btnmenu {
+        border: none;
+    }
+
+    #btnmenu:focus {
+        outline: none;
+    }
+
+    #collapsingNavbarTop {
+        font-size: 1vw;
+    }
+
+    /*------------------------------------------------------------------------------*/
+    /*timeline*/
+    .timeline-sec  ol.timeline {
+        margin: 5vw !important;
+        border-left: 2px solid #348e80;
+        padding-top: 120px !important;
+        border-top: 0 !important;
+        margin-left: 15vw !important;
+    }
+    .timeline-sec  ol.timeline li {
+        height: 200px;
+        width: inherit !important;
+    }
+    .timeline-sec  ol.timeline li:last-child {
+        height: 120px;
+    }
+    .timeline-sec  ol.timeline li span {
+        margin-left:-68vw ;
+    }
+    .timeline-sec  ol.timeline li span.sp-top:before {
+        content: none !important;
+    }
+    .timeline-sec  ol.timeline li span.sp-top:after {
+        content: none !important;
+    }
+    .timeline-sec  ol.timeline li span.sp-bot:before {
+        content: none !important;
+    }
+    .timeline-sec  ol.timeline li span.sp-bot:after {
+        content: none !important;
+    }
+    .timeline-sec  ol.timeline li .top {
+        width: 60% !important;
+        right: 0;
+        top: -40px;
+    }
+    .timeline-sec  ol.timeline li .bot {
+        width:60% !important;
+        right: 0;
+        margin-top: 80px !important;
+        top: -120px;
+    }
+}
+/*----------------------------------------------------------------------------------*/
+/*Moyen ecran*/
+/*----------------------------------------------------------------------------------*/
+@media screen and (max-width: 1500px) {
+    /*Timeline*/
+    .timeline-sec ol.timeline li p {
+        width: 300px;
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
 }
