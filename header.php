@@ -10,14 +10,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <!--CSS -->
     <link rel="stylesheet" href='public/css/app.css'/>
     <link rel="stylesheet" href='public/css/media.css'/>
     <link rel="stylesheet" href='public/css/colors.css'/>
+
     <!--    font-awesome-->
     <script src="https://kit.fontawesome.com/1a025099e7.js" crossorigin="anonymous"></script>
+
     <!--animation-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="public/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="public/images/favicon/apple-icon-60x60.png">
@@ -38,8 +42,7 @@
 <!-- header -->
 <div class="container-fluid p-0 m-0">
     <!--titre du site-->
-    <div id="TitreVideo"
-         class=" px-5 py-0 m-0 card-img-overlay d-lg-flex flex-column align-items-left justify-content-center text-left text-white">
+    <div id="TitreVideo" class=" px-5 py-0 m-0 card-img-overlay d-lg-flex flex-column align-items-left justify-content-center text-left text-white">
         <div>
             <h1 class="font-weight-bold">Boussouf Zohra</h1>
             <p class="lead">Hello, je suis actuellement en formation en tant que Concepteur / Développeur d'applications
