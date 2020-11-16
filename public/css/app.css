@@ -55,6 +55,14 @@ html {
     height: 20px;
 }
 
+:target {
+    border-top: 50px solid transparent;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    outline: none; /* Supprimer la outline disgracieuse de Chrome */
+}
+
 /*------------------------------------------------------------------------------*/
 /*header*/
 /*------------------------------------------------------------------------------*/
@@ -77,12 +85,18 @@ video {
 /*------------------------------------------------------------------------------*/
 /*sticky navbar*/
 .content {
-    padding: 16px;
+    padding: 25px;
 }
 
 .sticky {
     position: fixed;
     top: 0;
+    width: 100%;
+}
+
+.site-footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
 }
 
@@ -107,7 +121,7 @@ video {
 /*------------------------------------------------------------------------------*/
 
 .timeline-sec ol.timeline {
-    margin: 430px 0;
+    margin: 380px 0;
     padding: 0;
     border-top: 3px solid rgb(254, 198, 79);
     list-style: none;
@@ -122,7 +136,6 @@ video {
     display: flex;
     justify-content: center;
 }
-
 
 .timeline-sec ol.timeline li span {
     width: 75px;
@@ -193,4 +206,18 @@ video {
     margin-top: 200px;
 }
 
+
 /*---------------------------------------------------------------------------*/
+/*hobbies*/
+/*---------------------------------------------------------------------------*/
+.card {
+    border: none;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*Footer*/
+/*------------------------------------------------------------------------------*/
+.rounded {
+    width: 50px;
+    height: auto;
+}

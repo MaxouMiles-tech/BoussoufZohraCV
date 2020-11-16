@@ -2,21 +2,29 @@
 <?php
 include("header.php");
 ?>
+
+<!--corps du site-->
 <div class="container-fluid ">
     <div class="content">
-        <div id="quiSuisJe">
+        <div  id="quiSuisJe">
             <?php include("quiSuisJe.php"); ?>
         </div>
-        <div id="competences">
+        <div  id="competences">
             <?php include("competences.php"); ?>
         </div>
-        <div id="timeline">
+        <div  id="timeline">
             <?php include("timeLine.php"); ?>
+        </div>
+        <div  id="hobbies">
+            <?php include("hobbies.php"); ?>
+        </div>
+        <div  id="contact">
+            <?php include("contact.php"); ?>
         </div>
     </div>
 </div>
 
-<!--menu de navigation du pied de page-->
+<!--pied de page-->
 <?php
 include("footer.php");
 ?>

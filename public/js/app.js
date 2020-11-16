@@ -4,15 +4,20 @@
 window.onscroll = function() {myFunction()};
 
 let navbar = document.getElementById("navbarTop");
+let navbot = document.getElementById("navbot");
 let sticky = navbar.offsetTop;
 
 function myFunction() {
     if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
+        navbar.classList.add("sticky");
+        navbot.classList.add("site-footer")
+
     } else {
         navbar.classList.remove("sticky");
+        navbot.classList.remove('site-footer')
     }
 }
+
 
 
 // ---------------------------------------------------------------------------------------------------------------------------------

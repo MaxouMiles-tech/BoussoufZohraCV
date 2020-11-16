@@ -1,4 +1,4 @@
-<div class="row about" id="quiSuisJe">
+<div class="row about pt-5">
     <div class="titre m-auto">
         <div class="col about-title m-auto text-center">
             <h2 class=" wow animate__bounce ">Qui suis-je ?</h2>
@@ -7,8 +7,7 @@
     </div>
 </div>
 
-<div class="row about">
-
+<div class="row about-sec">
     <div class="about-img  col-lg-6" id="backJaune">
         <div class="d-flex justify-content-center">
             <img class="wow animate__fadeInLeft" src="public/images/moi.jpg" alt="Photo de montagne" id="moi">

@@ -47,7 +47,7 @@
             <h1 class="font-weight-bold">Boussouf Zohra</h1>
             <p class="lead">Hello, je suis actuellement en formation en tant que Concepteur / Développeur d'applications
                 <br>et je suis à la recherche d'un stage non remunéré de 3 mois à partir du 29/03/2021</p>
-            <a id="btnCTA1" class="btn text-white" href="#" role="button">Découvrir mon profil</a>
+            <a id="btnCTA1" class="btn text-white" target="_blank" href="public/CVZohraBoussouf.pdf" role="button">Télécharger mon CV</a>
         </div>
     </div>
     <!--video de l'entete-->
@@ -77,7 +77,7 @@
                     <a class="nav-link" href="index.php#timeline">Expériences</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="#">Ce qui m'anime</a>
+                    <a class="nav-link" href="index.php#hobbies">Ce qui m'anime</a>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="#">Contact</a>

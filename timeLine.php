@@ -1,4 +1,4 @@
-<div class="row timeline pt-5" id="timeline">
+<div class="row timeline pt-5">
     <div class="titre m-auto">
         <div class="col timeline-title m-auto text-center">
             <h2 class=" wow animate__bounce ">Expériences</h2>
