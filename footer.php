@@ -6,15 +6,17 @@
             setlocale(LC_TIME, 'fr_FR', 'fra');
             echo(strftime("%Y "));
             ?>
-            <a class="text-white" href="mailto:boussouf.zohra@gmail.com" id="email">Zohra Boussouf</a>
+            Zohra Boussouf
         </div>
         <div class="p-0">
             <a class="mr-3" href="https://www.linkedin.com/in/zohra-boussouf/" target="_blank" title="Profil LinkedIn">
-                <img id="linkedin" class=" rounded" src="public/images/icoLinkedIn.png" alt="Icone LinkedIn"></a>
+                <img id="linkedin" class="social rounded" src="public/images/icoLinkedIn.png" alt="Icone LinkedIn"></a>
             <a class="mr-3" href="https://github.com/MaxouMiles-tech" target="_blank" title="Profil GitHub">
-                <img id="github" class=" rounded" src="public/images/icoGithub.png" alt="Icone Github"></a>
-            <a href="public/CVZohraBoussouf.pdf" target="_blank" title="Profil GitHub">
-                <img id="cv" class="rounded" src="public/images/icoCv.png" alt="Icone téléchargement CV"></a>
+                <img id="github" class="social rounded" src="public/images/icoGithub.png" alt="Icone Github"></a>
+            <a  class="mr-3" href="public/CVZohraBoussouf.pdf" target="_blank" title="Profil GitHub">
+                <img id="cv" class="social rounded" src="public/images/icoCv.png" alt="Icone téléchargement CV"></a>
+            <a href="https://dev.amorce.org/boussoufz/" target="_blank" title="Portfolio">
+                <img id="cv" class="social rounded" src="public/images/portfolio.png" alt="Icone Portfolio"></a>
         </div>
     </nav>
 </div>

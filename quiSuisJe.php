@@ -7,14 +7,13 @@
     </div>
 </div>
 
-<div class="row about-sec">
+<div class="row about-sec d-flex justify-content-around">
     <div class="about-img  col-lg-6" id="backJaune">
         <div class="d-flex justify-content-center">
             <img class="wow animate__fadeInLeft" src="public/images/moi.jpg" alt="Photo de montagne" id="moi">
         </div>
     </div>
-
-    <div class="about-item col-lg-6 d-flex flex-column ">
+    <div class="about-item col-lg-5 d-flex flex-column ">
         <div class="about-content text-justify ">
             <h3 class="pt-3 pb-3 text-center">Développeur / concepteur d'applications Web</h3>
             <p> Diplômée en chimie organique et passionnée par le Digital. Je suis dynamique, rigoureuse et
@@ -36,4 +35,4 @@
                 mesure de la performance.</p>
         </div>
     </div>
-</div>
+
