@@ -15,7 +15,7 @@
 <div class="row  d-md-none justify-content-center contact-info pt-3">
     <div>
         <div class="m-auto text-center" >
-            <a href="#collapse1" data-toggle="collapse"><img class="img-fluid icoInfo mr-3" src="public/images/icoInfo.png"
+            <a href="#collapse1" data-toggle="collapse"><img class="img-fluid icoInfo mb-3" src="public/images/icoInfo.png"
                                                              alt="Icone Telephone"></a>
         </div>
 
@@ -52,11 +52,11 @@
 <!--section-->
 <!--    formulaire de contact-->
     <form action="public/php/mail.php" method="post" name="verifcontact" id="verifcontact"
-          class="mx-auto my-5">
-        <div class="contact-form m-2">
+          class="m-auto">
+        <div class="contact-form m-0 m-lg-2">
             <div class="row justify-content-between ">
 <!--                mes infos-->
-                <div class="col-md-3 contact-info d-none d-md-flex justify-content-center flex-column mx-4">
+                <div class="col-lg-3 contact-info d-none d-lg-flex justify-content-center flex-column mx-4">
                     <div>
                         <img class="img-fluid icoInfo mr-3" src="public/images/about/icoAnniv.png"
                              alt="Icone Anniversaire"> 34 ans
@@ -86,10 +86,10 @@
                     </div>
                 </div>
 <!--prise de contact-->
-                <div class="col-md-6 mx-4">
-                    <div class="input-group my-3">
-                        <div class="input-group-prepend ">
-                            <img class="icoInfo mr-3" src="public/images/about/icoUser.png" alt="Icone Personne">
+                <div class="col-lg-6 mx-4 ">
+                    <div class="input-group my-3 d-flex flex-column flex-lg-row">
+                        <div class="input-group-prepend m-auto">
+                            <img class="icoInfo mr-lg-3" src="public/images/about/icoUser.png" alt="Icone Personne">
                         </div>
                         <label for="nom"></label>
                         <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom et Prénom"
@@ -100,9 +100,9 @@
                     </div>
                     <p id="errorNom" class="text-danger"></p>
 
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <img class="icoInfo mr-3" src="public/images/about/icoArobaz.png"
+                    <div class="input-group mb-3 d-flex flex-column flex-lg-row">
+                        <div class="input-group-prepend m-auto">
+                            <img class="icoInfo mr-lg-3" src="public/images/about/icoArobaz.png"
                                  alt="Icone Composer mail">
                         </div>
                         <label for="mail"></label>
@@ -114,10 +114,10 @@
                     </div>
                     <p id="errorMail" class="text-danger"></p>
 
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
+                    <div class="input-group mb-3  d-flex flex-column flex-lg-row">
+                        <div class="input-group-prepend m-auto">
                             <div class="d-flex align-items-center">
-                                <img class="icoInfo mr-3" src="public/images/about/icoChat.png"
+                                <img class="icoInfo mr-lg-3" src="public/images/about/icoChat.png"
                                      alt="Icone Conversation">
                             </div>
                         </div>

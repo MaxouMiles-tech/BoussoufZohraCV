@@ -11,7 +11,7 @@
     </div>
 </div>
 <!--section-->
-<div class="row timeline-sec">
+<div class=" row timeline-sec">
     <ol class="timeline  d-lg-flex justify-content-around mx-lg-auto">
         <!--    description des experiences-->
         <li>

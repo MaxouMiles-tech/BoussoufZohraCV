@@ -11,7 +11,7 @@
     </div>
 </div>
 <!--section-->
-<div class="row hobbies-sec">
+<div class="row hobbies-sec px-2">
 <!--    premiere ligne -->
     <div class="mt-5 mx-auto d-flex flex-row ">
         <div class="card card-hobbies" id="avion">

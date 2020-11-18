@@ -3,9 +3,9 @@
 <!--------------------------------------------------------------------------------------------------------------------->
 <!--pied de page -->
 <div id="navbot" class="">
-    <nav class="navbar color-primary-0 justify-content-between navbar-expand-md text-white">
+    <nav class="navbar color-primary-0 justify-content-between navbar-expand-lg text-white">
 <!--        nom-->
-        <div class="mb-2">
+        <div class="mb-2 d-none d-lg-flex">
             &copy;
             <?php
             setlocale(LC_TIME, 'fr_FR', 'fra');
@@ -14,12 +14,12 @@
             Zohra Boussouf
         </div>
 <!--        reseaux-->
-        <div class="p-0">
+        <div class="p-0 m-auto m-lg-0">
             <a class="mr-3" href="https://www.linkedin.com/in/zohra-boussouf/" target="_blank" title="Profil LinkedIn">
                 <img id="linkedin" class="social rounded" src="public/images/icoLinkedIn.png" alt="Icone LinkedIn"></a>
             <a class="mr-3" href="https://github.com/MaxouMiles-tech" target="_blank" title="Profil GitHub">
                 <img id="github" class="social rounded" src="public/images/icoGithub.png" alt="Icone Github"></a>
-            <a  class="mr-3" href="public/CVZohraBoussouf.pdf" target="_blank" title="Profil GitHub">
+            <a  class="mr-3" href="public/CVZohraBoussouf.pdf" target="_blank" title="CV PDF">
                 <img id="cv" class="social rounded" src="public/images/icoCv.png" alt="Icone téléchargement CV"></a>
             <a href="https://dev.amorce.org/boussoufz/" target="_blank" title="Portfolio">
                 <img id="cv" class="social rounded" src="public/images/portfolio.png" alt="Icone Portfolio"></a>
@@ -36,7 +36,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/ulg/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"

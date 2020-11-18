@@ -15,12 +15,12 @@
 <!--    image-->
     <div class="about-img  col-lg-6" id="backJaune">
         <div class="d-flex justify-content-center">
-            <img class="wow animate__fadeInLeft" src="public/images/moi.jpg" alt="Photo de montagne" id="moi">
+            <img class= "img-fluid wow animate__fadeInLeft" src="public/images/moi.jpg" alt="Photo de montagne" id="moi">
         </div>
     </div>
 <!--    texte-->
     <div class="about-item col-lg-5 d-flex flex-column ">
-        <div class="about-content text-justify ">
+        <div class="about-content text-center ">
             <h3 class="pt-3 pb-3 text-center">Développeur / concepteur d'applications Web</h3>
             <p> Diplômée en chimie organique et passionnée par le Digital. Je suis dynamique, rigoureuse et
                 spontanée. </p>
