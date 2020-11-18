@@ -1,10 +1,5 @@
-/* CSS - Cascading Style Sheet */
 /* Palette color codes */
-/* Palette URL: http://paletton.com/#uid=73k0u0kvCpnm5vRswuJAskLJbfw */
-
-/* Feel free to copy&paste color codes to your application */
-
-
+/*-------------------------------------------------------------------------------------------------------------------*/
 /* As hex codes */
 
 .color-primary-0 { background-color: #128A95 }	/* Main Primary color */
@@ -32,7 +27,7 @@
 .color-complement-4 {background-color: #7C3A00 }
 
 
-
+/*-------------------------------------------------------------------------------------------------------------------*/
 /* As RGBa codes */
 
 .rgba-primary-0 {background-color :rgba(  3,113,123,1) }	/* Main Primary color */

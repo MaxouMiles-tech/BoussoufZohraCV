@@ -1,3 +1,6 @@
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--header-->
+<!--------------------------------------------------------------------------------------------------------------------->
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -68,7 +71,7 @@
         <div class="navbar-collapse collapse w-100 " id="collapsingNavbarTop">
             <ul class="nav navbar-nav ml-auto w-100 justify-content-end ">
                 <li class="nav-item  mr-3">
-                    <a class="nav-link" href="index.php#quiSuisJe">Qui suis-je?</a>
+                    <a class="nav-link" href="index.php#about">Qui suis-je?</a>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="index.php#competences">Compétences</a>
@@ -80,7 +83,7 @@
                     <a class="nav-link" href="index.php#hobbies">Ce qui m'anime</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="index.php#contact">Contact</a>
                 </li>
             </ul>
         </div>

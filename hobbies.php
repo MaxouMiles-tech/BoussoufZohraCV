@@ -1,3 +1,7 @@
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--hobbies-->
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--titre-->
 <div class="row hobbies pt-5">
     <div class="titre m-auto">
         <div class="col hobbies-title m-auto text-center">
@@ -6,8 +10,9 @@
         <div class="col p-0 m-auto" id="tiret"></div>
     </div>
 </div>
-
+<!--section-->
 <div class="row hobbies-sec">
+<!--    premiere ligne -->
     <div class="mt-5 mx-auto d-flex flex-row ">
         <div class="card card-hobbies" id="avion">
             <img class="img-fluid " src="public/images/hobbies/avion.jpg" alt="avion">
@@ -22,6 +27,7 @@
             <img class="img-fluid" src="public/images/hobbies/icoculture.jpg" alt="Icone culture">
         </div>
     </div>
+    <!--    seconde ligne -->
     <div class=" mx-auto d-flex flex-row">
         <div class="card card-hobbies" id="icorando">
             <img class="img-fluid" src="public/images/hobbies/icorando.png" alt="Icone de chaussures de randonnées">

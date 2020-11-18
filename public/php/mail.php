@@ -1,3 +1,6 @@
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--Page de gestion du formulaire et affiche apres envoi -->
+<!--------------------------------------------------------------------------------------------------------------------->
 <!doctype html>
 <html lang="fr">
 
@@ -58,6 +61,7 @@
         echo "Le message doit être renseigné ! <br>";
         $check = false;
     }
+
     // Si le formulaire est valide, envoie de la demande
     if ($check) {
         $to = "boussoufzohra@gmailcom";
@@ -94,7 +98,7 @@
 
 </div>
 <!-- Optional JavaScript-->
-<!--<script src="../js/mail.js"></script>-->
+<script src="../js/mail.js"></script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -109,6 +113,4 @@
 
 
 </body>
-
-
 </html>

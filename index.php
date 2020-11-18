@@ -1,3 +1,6 @@
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--principal-->
+<!--------------------------------------------------------------------------------------------------------------------->
 <!--header-->
 <?php
 include("header.php");
@@ -6,8 +9,8 @@ include("header.php");
 <!--corps du site-->
 <div class="container-fluid ">
     <div class="content">
-        <div  id="quiSuisJe">
-            <?php include("quiSuisJe.php"); ?>
+        <div  id="about">
+            <?php include("about.php"); ?>
         </div>
         <div  id="competences">
             <?php include("competences.php"); ?>

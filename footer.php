@@ -1,5 +1,10 @@
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--footer-->
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--pied de page -->
 <div id="navbot" class="">
     <nav class="navbar color-primary-0 justify-content-between navbar-expand-md text-white">
+<!--        nom-->
         <div class="mb-2">
             &copy;
             <?php
@@ -8,6 +13,7 @@
             ?>
             Zohra Boussouf
         </div>
+<!--        reseaux-->
         <div class="p-0">
             <a class="mr-3" href="https://www.linkedin.com/in/zohra-boussouf/" target="_blank" title="Profil LinkedIn">
                 <img id="linkedin" class="social rounded" src="public/images/icoLinkedIn.png" alt="Icone LinkedIn"></a>
