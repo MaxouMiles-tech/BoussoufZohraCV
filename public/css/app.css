@@ -254,7 +254,7 @@ hr {
     color: #03717B;
     margin-top: 100px;
     padding: 20px;
-    box-shadow: 0px 0px 5px 3px rgb(254, 198, 79);
+    box-shadow: 0 0 5px 3px rgb(254, 198, 79);
 }
 
 .icoInfo {
