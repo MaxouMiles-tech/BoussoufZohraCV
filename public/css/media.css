@@ -2,28 +2,33 @@
 /*Grand ecran*/
 /*------------------------------------------------------------------------------*/
 
-@media screen and (min-width:992px)
-{
+@media screen and (min-width: 992px) {
     /*header*/
     #TitreVideo {
-        z-index: 6 ;
+        z-index: 6;
     }
-    #faviconZB, #linkedin, #github{
-        width:50px;
-        height: auto;
+
+    #faviconZB {
+        width: 50px;
+        height: 50px;
     }
+
     /*police*/
-    h1
-    {
-        font-size: 5vw ;
+    h1 {
+        font-size: 5vw;
     }
-    .lead, #collapsingNavbarTop
-    {
-        font-size: 1.5vw ;
+
+    .lead, #collapsingNavbarTop {
+        font-size: 1.5vw;
+        margin: 0px;
     }
-    #btnCTA1
-    {
+
+    #btnCTA1 {
         font-size: 2vw;
+    }
+
+    #imgMarque {
+        width: 450px;
     }
 
     /*------------------------------------------------------------------------------*/
@@ -34,23 +39,15 @@
 
     /*------------------------------------------------------------------------------*/
     /*skills*/
-    .competence-img
-    {
+    .competence-img {
         width: 70%;
         height: auto;
     }
 
     /*------------------------------------------------------------------------------*/
     /*skills*/
-    #verifcontact{
+    #verifcontact {
         width: 1200px;
-    }
-
-    /*-----------------------------------------------------------------------------*/
-    /*Footer*/
-    .social {
-        width: 50px;
-        height: auto;
     }
 }
 
@@ -70,27 +67,33 @@
     #collapsingNavbarTop {
         font-size: 5vw;
     }
+
     /*header*/
     #TitreVideo {
-        z-index: 6 ;
-        height: 20em;
+        z-index: 6;
+        top: 20%;
     }
-    #faviconZB{
-        width:30px !important;
-        height: auto;
+
+    #faviconZB {
+        width: 30px !important;
+        height: 30px;
+    }
+
+    #imgMarque {
+        width: 150px;
     }
 
     /*police*/
-    h1
-    {
-        font-size: 10vw ;
+    h1 {
+        font-size: 10vw;
     }
-    .lead
-    {
-        font-size: 2.5vw ;
+
+    .lead {
+        font-size: 2.5vw;
+        margin: 0;
     }
-    #btnCTA1, #collapsingNavbarTop
-    {
+
+    #btnCTA1, #collapsingNavbarTop {
         font-size: 3vw;
     }
 
@@ -101,65 +104,86 @@
     }
 
     /*------------------------------------------------------------------------------*/
-    .competence-img
-    {
+    .competence-img {
         width: 40%;
         height: auto;
     }
 
     /*------------------------------------------------------------------------------*/
-    /*skills*/
-    #verifcontact{
-        width: 100%;
-    }
-
-    /*------------------------------------------------------------------------------*/
     /*timeline*/
-    .timeline-sec  ol.timeline {
+    .timeline-sec ol.timeline {
         margin: 5vw !important;
         border-left: 2px solid #348e80;
         padding-top: 120px !important;
         border-top: 0 !important;
         margin-left: 15vw !important;
     }
-    .timeline-sec  ol.timeline li {
+
+    .timeline-sec ol.timeline li {
         height: 200px;
         width: inherit !important;
     }
-    .timeline-sec  ol.timeline li:last-child {
+
+    .timeline-sec ol.timeline li:last-child {
         height: 120px;
     }
-    .timeline-sec  ol.timeline li span {
-        margin-left:-100% ;
+
+    .timeline-sec ol.timeline li span {
+        margin-left: -100%;
     }
-    .timeline-sec  ol.timeline li span.sp-top:before {
+
+    .timeline-sec ol.timeline li span.sp-top:before {
         content: none !important;
     }
-    .timeline-sec  ol.timeline li span.sp-top:after {
+
+    .timeline-sec ol.timeline li span.sp-top:after {
         content: none !important;
     }
-    .timeline-sec  ol.timeline li span.sp-bot:before {
+
+    .timeline-sec ol.timeline li span.sp-bot:before {
         content: none !important;
     }
-    .timeline-sec  ol.timeline li span.sp-bot:after {
+
+    .timeline-sec ol.timeline li span.sp-bot:after {
         content: none !important;
     }
-    .timeline-sec  ol.timeline li .top {
+
+    .timeline-sec ol.timeline li .top {
         width: 60% !important;
         right: 0;
         top: -40px;
     }
-    .timeline-sec  ol.timeline li .bot {
-        width:60% !important;
+
+    .timeline-sec ol.timeline li .bot {
+        width: 60% !important;
         right: 0;
         margin-top: 80px !important;
         top: -120px;
     }
+}
 
-    /*-----------------------------------------------------------------------------*/
-    /*Footer*/
-    .social {
-        width: 30px;
-        height: auto;
+@media not all and (min-resolution: .001dpcm) {
+    @supports (-webkit-appearance:none) and (display:flow-root) {
+        .safari {
+            margin-left: -50% !important;
+        }
+    }
+}
+
+/*---------------------------------------------------------------------------------*/
+/*Moyen ecran*/
+/*---------------------------------------------------------------------------------*/
+@media screen and (max-width: 1300px) {
+
+    /*------------------------------------------------------------------------------*/
+    /*about*/
+    .about-content {
+        width: auto;
+    }
+
+    /*------------------------------------------------------------------------------*/
+    /*contact*/
+    #verifcontact {
+        width: 90%;
     }
 }

@@ -15,11 +15,12 @@
         </div>
 <!--        reseaux-->
         <div class="p-0 m-auto m-lg-0">
-            <a class="mr-3" href="https://www.linkedin.com/in/zohra-boussouf/" target="_blank" title="Profil LinkedIn">
+            <span class="mr-3"> On reste en contact? </span>
+            <a class="mr-md-3" href="https://www.linkedin.com/in/zohra-boussouf/" target="_blank" title="Profil LinkedIn">
                 <img id="linkedin" class="social rounded" src="public/images/icoLinkedIn.png" alt="Icone LinkedIn"></a>
-            <a class="mr-3" href="https://github.com/MaxouMiles-tech" target="_blank" title="Profil GitHub">
+            <a class="mr-md-3" href="https://github.com/MaxouMiles-tech" target="_blank" title="Profil GitHub">
                 <img id="github" class="social rounded" src="public/images/icoGithub.png" alt="Icone Github"></a>
-            <a  class="mr-3" href="public/CVZohraBoussouf.pdf" target="_blank" title="CV PDF">
+            <a  class="mr-md-3" href="public/CVZohraBoussouf.pdf" target="_blank" title="CV PDF">
                 <img id="cv" class="social rounded" src="public/images/icoCv.png" alt="Icone téléchargement CV"></a>
             <a href="https://dev.amorce.org/boussoufz/" target="_blank" title="Portfolio">
                 <img id="cv" class="social rounded" src="public/images/portfolio.png" alt="Icone Portfolio"></a>

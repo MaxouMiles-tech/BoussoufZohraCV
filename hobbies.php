@@ -28,7 +28,7 @@
         </div>
     </div>
     <!--    seconde ligne -->
-    <div class=" mx-auto d-flex flex-row">
+    <div class="mb-5 mx-auto d-flex flex-row">
         <div class="card card-hobbies" id="icorando">
             <img class="img-fluid" src="public/images/hobbies/icorando.png" alt="Icone de chaussures de randonnées">
         </div>

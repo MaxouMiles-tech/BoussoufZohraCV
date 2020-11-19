@@ -45,12 +45,16 @@
 <!-- header -->
 <div class="container-fluid p-0 m-0">
     <!--titre du site-->
-    <div id="TitreVideo" class=" px-5 py-0 m-0 card-img-overlay d-lg-flex flex-column align-items-left justify-content-center text-left text-white">
+    <div class="text-center card-img-overlay" id="marque">
+            <img  id="imgMarque" src="public/images/marque.png" alt="Logo Nom et Titre" title="Marque">
+    </div>
+    <div id="TitreVideo" class=" px-3 px-md-5 py-0 m-0 card-img-overlay d-lg-flex flex-column align-items-left justify-content-center  text-left text-white ">
         <div>
-            <h1 class="font-weight-bold">Boussouf Zohra</h1>
-            <p class="lead">Hello, je suis actuellement en formation en tant que Concepteur / Développeur d'applications
-                <br>et je suis à la recherche d'un stage non remunéré de 3 mois à partir du 29/03/2021</p>
-            <a id="btnCTA1" class="btn text-white" target="_blank" href="public/CVZohraBoussouf.pdf" role="button">Télécharger mon CV</a>
+<!--            <h1 class="font-weight-bold">Boussouf Zohra</h1>-->
+            <p class="lead">Hello, je suis actuellement en formation en tant que Concepteur / Développeur</p>
+            <p class="lead">d'applications et je suis à la recherche d'un stage non remunéré</p>
+            <p class="lead">de 3 mois à partir du 29/03/2021</p>
+            <a id="btnCTA1" class="btn text-white mt-3" target="_blank" href="public/CVZohraBoussouf.pdf" role="button">Télécharger mon CV</a>
         </div>
     </div>
     <!--video de l'entete-->

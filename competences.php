@@ -11,7 +11,7 @@
     </div>
 </div>
 <!--section-->
-<div class="row skills-sec mt-3 d-flex mx-3 justify-content-between">
+<div class="row skills-sec mt-3 d-flex p-3 justify-content-between">
 <!--competence info-->
     <div class="it-skills col-lg-5 d-flex flex-lg-row flex-wrap mb-sm-0 mb-5">
         <div class="col-sm-4 col-6 d-flex flex-column justify-content-center ">
@@ -78,6 +78,6 @@
     </div>
 <!--    soft skills-->
     <div class="col-lg-5 soft-skills  mt-sm-0 mt-5 ">
-        <img class="img-fluid wow animate__fadeInRight" src="public/images/softSkills.png" alt="=Soft Skills">
+        <img class="img-fluid wow animate__fadeInRight" src="public/images/competence/softSkills.png" alt="=Soft Skills">
     </div>
 </div>
