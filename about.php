@@ -11,7 +11,7 @@
     </div>
 </div>
 <!--section-->
-<div class="row about-sec d-flex justify-content-around">
+<div class="row about-sec d-flex justify-content-around pb-5">
 <!--    image-->
     <div class="about-img  col-lg-6" id="backJaune">
         <div class="d-flex justify-content-center">

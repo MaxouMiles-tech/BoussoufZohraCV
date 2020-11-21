@@ -7,7 +7,7 @@ include("header.php");
 ?>
 
 <!--corps du site-->
-<div class="container-fluid ">
+<div class="container-fluid" id="container-fluid">
     <div class="content">
         <div  id="about">
             <?php include("about.php"); ?>

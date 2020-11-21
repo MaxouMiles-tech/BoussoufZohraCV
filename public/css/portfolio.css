@@ -36,11 +36,12 @@ body {
     z-index: 1;
     border-radius: 10px;
     top: -55px;
+    filter: brightness(50%)
 }
 
 .container-fluid .card-body {
     position: relative;
-    visibility: hidden;
+    /*visibility: hidden;*/
     opacity: 0;
     transition: 0.3s ease-in-out;
 }
@@ -65,6 +66,10 @@ hr {
 
 .btn:hover {
     color: white;
+}
+
+.card-img-overlay{
+    z-index: 10 !important;
 }
 
 /*------------------------------------------------------------------------------*/

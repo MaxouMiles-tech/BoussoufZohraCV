@@ -5,7 +5,10 @@ html {
     font-size: 100%;
     scroll-behavior: smooth;
 }
-
+#container-fluid{
+    padding: 0!important;
+    margin: 0 !important;
+}
 
 /*------------------------------------------------------------------------------*/
 /*Scrollbar*/
@@ -88,7 +91,7 @@ video {
 
 #marque {
     z-index: 2;
-    top: -10%;
+    top: -5%;
 }
 
 /*------------------------------------------------------------------------------*/
@@ -112,7 +115,7 @@ video {
 /*-----------------------------------------------------------------------------*/
 /*skills*/
 /*------------------------------------------------------------------------------*/
-.skills-sec{
+#competences{
     background-color: #f5f5f5;
 }
 
@@ -124,6 +127,15 @@ video {
     color: rgb(254, 198, 79);
 }
 
+#cv {
+    background-color: #03717B;
+    font-size: 1.5rem;
+}
+
+.portfolio{
+    width: 70px;
+    height: 70px;
+}
 /*-----------------------------------------------------------------------------*/
 /*Timeline*/
 /*------------------------------------------------------------------------------*/
@@ -221,7 +233,7 @@ video {
 .card-hobbies {
     border: none;
 }
-.hobbies-sec{
+#hobbies{
     background-color: #f5f5f5;
 }
 
@@ -254,7 +266,7 @@ hr {
     color: #03717B;
     margin-top: 100px;
     padding: 20px;
-    box-shadow: 0px 0px 5px 3px rgb(254, 198, 79);
+    box-shadow: 0 0 5px 3px rgb(254, 198, 79);
 }
 
 .icoInfo {

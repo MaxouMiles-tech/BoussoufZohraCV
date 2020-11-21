@@ -6,7 +6,8 @@
     /*header*/
     #TitreVideo {
         z-index: 6;
-        top: 30%
+        top: 30%;
+        left:15%;
     }
 
     #faviconZB {
@@ -29,7 +30,7 @@
     }
 
     #imgMarque {
-        width: 450px;
+        width: 350px;
     }
 
     /*------------------------------------------------------------------------------*/
@@ -73,6 +74,7 @@
     #TitreVideo {
         z-index: 6;
         top: 20%;
+        left:7%;
     }
 
     #faviconZB {
