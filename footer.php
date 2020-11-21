@@ -22,7 +22,7 @@
                 <img id="github" class="social rounded" src="public/images/icoGithub.png" alt="Icone Github"></a>
             <a  class="mr-md-3" href="public/CVZohraBoussouf.pdf" target="_blank" title="CV PDF">
                 <img id="cv" class="social rounded" src="public/images/icoCv.png" alt="Icone téléchargement CV"></a>
-            <a href="https://dev.amorce.org/boussoufz/" target="_blank" title="Portfolio">
+            <a href="portfolio.php" target="_blank" title="Portfolio">
                 <img id="cv" class="social rounded" src="public/images/portfolio.png" alt="Icone Portfolio"></a>
         </div>
     </nav>

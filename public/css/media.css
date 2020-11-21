@@ -6,6 +6,7 @@
     /*header*/
     #TitreVideo {
         z-index: 6;
+        top: 30%
     }
 
     #faviconZB {
@@ -162,12 +163,26 @@
     }
 }
 
+/*---------------------------------------------------------------------------------*/
+/*safari*/
+/*---------------------------------------------------------------------------------*/
 @media not all and (min-resolution: .001dpcm) {
     @supports (-webkit-appearance:none) and (display:flow-root) {
+        /*header*/
+        #TitreVideo {
+            top: 15% !important;
+        }
+
         .safari {
             margin-left: -50% !important;
         }
+
+        #moi {
+            width: 75%;
+            height: 75%;
+        }
     }
+
 }
 
 /*---------------------------------------------------------------------------------*/
