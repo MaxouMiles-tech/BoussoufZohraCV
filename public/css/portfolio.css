@@ -19,7 +19,7 @@ body {
 
 #carte {
     position: relative;
-    min-height: calc(100vh - 221px) !important;
+    min-height: calc(100vh - 253px) !important;
 }
 
 .container-fluid .card {
@@ -42,13 +42,14 @@ body {
     position: relative;
     visibility: hidden;
     opacity: 0;
-    transition: 0.3s ease-in-out
+    transition: 0.3s ease-in-out;
 }
 
 .container-fluid .card:hover .card-body {
     visibility: visible;
     opacity: 1;
-    transition-delay: 0.3s;;
+    top: -40px;
+    transition-delay: 0.3s;
 }
 
 hr {
@@ -59,6 +60,10 @@ hr {
 
 .btn {
     background-color: #03717B !important;
+    color: white;
+}
+
+.btn:hover {
     color: white;
 }
 
@@ -75,15 +80,10 @@ hr {
 
     .container-fluid .card:hover {
         height: 350px;
-
     }
 
     .container-fluid .card img {
         top: -55px;
-    }
-
-    .container-fluid .card:hover .card-body {
-        top: -40px;
     }
 
 }
@@ -99,12 +99,7 @@ hr {
     }
 
     .container-fluid .card:hover {
-        height: 330px;
-
-    }
-
-    .container-fluid .card:hover .card-body {
-        top: -40px;
+        height: 360px;
     }
 
 }

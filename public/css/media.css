@@ -201,4 +201,8 @@
     #verifcontact {
         width: 90%;
     }
+
+    .form-control{
+        width: 100% !important;
+    }
 }
