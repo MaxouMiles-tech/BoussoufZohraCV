@@ -84,7 +84,7 @@
 
 <!--    CTA portfolio-->
 <div class="row" id="CTAportfolio">
-    <div class="col d-flex justify-content-center mt-5 p-3 mr-5 ">
+    <div class="col d-flex justify-content-center mt-5 p-3 mr-5 m-auto">
         <a role="button" class="btn text-white" href="portfolio.php" title="Portfolio" id="cv">Découvrez mon portfolio
             <img class="rounded portfolio" src="public/images/competence/pf.png" alt="Image représentant Portfolio"></a>
     </div>
