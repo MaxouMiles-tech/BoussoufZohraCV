@@ -88,7 +88,7 @@
     <div class="card text-white " id="cartePortfolio">
         <div id="TitrePortfolio" class="card-img-overlay">
             <p class="d-none d-md-block display-3 card-title ">Portfolio</p>
-            <p class="card-text d-none d-md-block  ">Visitez les réalisations de projets qui m'ont permis d'acquérir de
+            <p class="card-text">Visitez les réalisations de projets qui m'ont permis d'acquérir de
                 l'expérience pratique dans le développement WEB</p>
             <div class="d-none d-md-block m-auto">
                 <a role="button" class="btn text-white" href="portfolio.php" title="Portfolio" id="cv">Découvrez mon
