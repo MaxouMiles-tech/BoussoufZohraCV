@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="145123d5-1643-4d84-8044-82da584d010f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../../wamp/bin/php" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jPGpdReGVO8TcAwnxBHpoTHup1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\80010-44-05\PhpstormProjects\untitled" />
+      <recent name="C:\Users\80010-44-05\PhpstormProjects\untitled\public\images" />
+      <recent name="C:\Users\80010-44-05\PhpstormProjects\untitled\public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="145123d5-1643-4d84-8044-82da584d010f" name="Default Changelist" comment="" />
+      <created>1603698502259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603698502259</updated>
+      <workItem from="1603698509203" duration="862000" />
+      <workItem from="1603700307427" duration="149000" />
+      <workItem from="1603700463843" duration="722000" />
+      <workItem from="1603703485522" duration="1665000" />
+      <workItem from="1603715937856" duration="168000" />
+      <workItem from="1603716115167" duration="2698000" />
+      <workItem from="1603719897677" duration="1538000" />
+      <workItem from="1603723328876" duration="1757000" />
+      <workItem from="1603790294412" duration="5108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="433" y="179" key="#CLI_Interpreters" timestamp="1603718208421">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="433" y="179" key="#CLI_Interpreters/1680.-36.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603718208421" />
+    <state x="559" y="76" width="588" height="898" key="#PHP" timestamp="1603718218362">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="559" y="76" width="588" height="898" key="#PHP/1680.-36.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603718218362" />
+    <state x="695" y="114" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1603718936427">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="695" y="114" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1680.-36.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603718936427" />
+    <state x="620" y="279" key="FileChooserDialogImpl" timestamp="1603718003408">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="620" y="279" key="FileChooserDialogImpl/1680.-36.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603718003408" />
+    <state x="255" y="447" key="NewPhpFileDialog" timestamp="1603718825304">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="255" y="447" key="NewPhpFileDialog/1680.-36.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603718825304" />
+    <state x="377" y="149" key="SettingsEditor" timestamp="1603716105929">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="377" y="149" key="SettingsEditor/1680.-36.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1603716105929" />
+  </component>
+</project>

@@ -1,0 +1,36 @@
+Index: public/css/media.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*------------------------------------------------------------------------------*/\r\n/*Grand ecran*/\r\n/*------------------------------------------------------------------------------*/\r\n\r\n@media screen and (min-width: 992px) {\r\n    /*header*/\r\n    #TitreVideo {\r\n        z-index: 6;\r\n    }\r\n\r\n    #faviconZB {\r\n        width: 50px;\r\n        height: 50px;\r\n    }\r\n\r\n    /*police*/\r\n    h1 {\r\n        font-size: 5vw;\r\n    }\r\n\r\n    .lead, #collapsingNavbarTop {\r\n        font-size: 1.5vw;\r\n        margin: 0;\r\n    }\r\n\r\n    #btnCTA1 {\r\n        font-size: 2vw;\r\n    }\r\n\r\n    #imgMarque {\r\n        width: 450px;\r\n    }\r\n\r\n    /*------------------------------------------------------------------------------*/\r\n    /*about*/\r\n    .about-content {\r\n        width: 550px;\r\n    }\r\n\r\n    /*------------------------------------------------------------------------------*/\r\n    /*skills*/\r\n    .competence-img {\r\n        width: 70%;\r\n        height: auto;\r\n    }\r\n\r\n    /*------------------------------------------------------------------------------*/\r\n    /*skills*/\r\n    #verifcontact {\r\n        width: 1200px;\r\n    }\r\n}\r\n\r\n/*---------------------------------------------------------------------------------*/\r\n/*Extra petit ecran*/\r\n/*---------------------------------------------------------------------------------*/\r\n@media screen and (max-width: 992px) {\r\n    /* icone pour le bouton menu petit ecran */\r\n    #btnmenu {\r\n        border: none;\r\n    }\r\n\r\n    #btnmenu:focus {\r\n        outline: none;\r\n    }\r\n\r\n    #collapsingNavbarTop {\r\n        font-size: 5vw;\r\n    }\r\n\r\n    /*header*/\r\n    #TitreVideo {\r\n        z-index: 6;\r\n        top: 20%;\r\n    }\r\n\r\n    #faviconZB {\r\n        width: 30px !important;\r\n        height: 30px;\r\n    }\r\n\r\n    #imgMarque {\r\n        width: 150px;\r\n    }\r\n\r\n    /*police*/\r\n    h1 {\r\n        font-size: 10vw;\r\n    }\r\n\r\n    .lead {\r\n        font-size: 2.5vw;\r\n        margin: 0;\r\n    }\r\n\r\n    #btnCTA1, #collapsingNavbarTop {\r\n        font-size: 3vw;\r\n    }\r\n\r\n    /*------------------------------------------------------------------------------*/\r\n    /*about*/\r\n    .about-content {\r\n        width: 100%;\r\n    }\r\n\r\n    /*------------------------------------------------------------------------------*/\r\n    .competence-img {\r\n        width: 40%;\r\n        height: auto;\r\n    }\r\n\r\n    /*------------------------------------------------------------------------------*/\r\n    /*timeline*/\r\n    .timeline-sec ol.timeline {\r\n        margin: 5vw !important;\r\n        border-left: 2px solid #348e80;\r\n        padding-top: 120px !important;\r\n        border-top: 0 !important;\r\n        margin-left: 15vw !important;\r\n    }\r\n\r\n    .timeline-sec ol.timeline li {\r\n        height: 200px;\r\n        width: inherit !important;\r\n    }\r\n\r\n    .timeline-sec ol.timeline li:last-child {\r\n        height: 120px;\r\n    }\r\n\r\n    .timeline-sec ol.timeline li span {\r\n        margin-left: -100%;\r\n    }\r\n\r\n    .timeline-sec ol.timeline li span.sp-top:before {\r\n        content: none !important;\r\n    }\r\n\r\n    .timeline-sec ol.timeline li span.sp-top:after {\r\n        content: none !important;\r\n    }\r\n\r\n    .timeline-sec ol.timeline li span.sp-bot:before {\r\n        content: none !important;\r\n    }\r\n\r\n    .timeline-sec ol.timeline li span.sp-bot:after {\r\n        content: none !important;\r\n    }\r\n\r\n    .timeline-sec ol.timeline li .top {\r\n        width: 60% !important;\r\n        right: 0;\r\n        top: -40px;\r\n    }\r\n\r\n    .timeline-sec ol.timeline li .bot {\r\n        width: 60% !important;\r\n        right: 0;\r\n        margin-top: 80px !important;\r\n        top: -120px;\r\n    }\r\n}\r\n\r\n@media not all and (min-resolution: .001dpcm) {\r\n    @supports (-webkit-appearance:none) and (display:flow-root) {\r\n        .safari {\r\n            margin-left: -50% !important;\r\n        }\r\n    }\r\n}\r\n\r\n/*---------------------------------------------------------------------------------*/\r\n/*Moyen ecran*/\r\n/*---------------------------------------------------------------------------------*/\r\n@media screen and (max-width: 1300px) {\r\n\r\n    /*------------------------------------------------------------------------------*/\r\n    /*about*/\r\n    .about-content {\r\n        width: auto;\r\n    }\r\n\r\n    /*------------------------------------------------------------------------------*/\r\n    /*contact*/\r\n    #verifcontact {\r\n        width: 90%;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/css/media.css	(revision 5f9f7b5a8b884f9b9ccb3ecda96ef6cc178a3041)
++++ public/css/media.css	(date 1605794312493)
+@@ -162,12 +162,26 @@
+     }
+ }
+ 
++/*---------------------------------------------------------------------------------*/
++/*safari*/
++/*---------------------------------------------------------------------------------*/
+ @media not all and (min-resolution: .001dpcm) {
+     @supports (-webkit-appearance:none) and (display:flow-root) {
++        /*header*/
++        #TitreVideo {
++            top: 15% !important;
++        }
++
+         .safari {
+             margin-left: -50% !important;
+         }
++
++        #moi{
++            width: 75%;
++            height: 75%;
++        }
+     }
++
+ }
+ 
+ /*---------------------------------------------------------------------------------*/
