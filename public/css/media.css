@@ -6,6 +6,8 @@
     /*header*/
     #TitreVideo {
         z-index: 6;
+        top: 30%;
+        left:15%;
     }
 
     #faviconZB {
@@ -28,7 +30,7 @@
     }
 
     #imgMarque {
-        width: 450px;
+        width: 350px;
     }
 
     /*------------------------------------------------------------------------------*/
@@ -48,6 +50,9 @@
     /*skills*/
     #verifcontact {
         width: 1200px;
+    }
+    #cv {
+        font-size: 1.5rem;
     }
 }
 
@@ -72,6 +77,7 @@
     #TitreVideo {
         z-index: 6;
         top: 20%;
+        left:7%;
     }
 
     #faviconZB {
@@ -162,12 +168,26 @@
     }
 }
 
+/*---------------------------------------------------------------------------------*/
+/*safari*/
+/*---------------------------------------------------------------------------------*/
 @media not all and (min-resolution: .001dpcm) {
     @supports (-webkit-appearance:none) and (display:flow-root) {
+        /*header*/
+        #TitreVideo {
+            top: 15% !important;
+        }
+
         .safari {
             margin-left: -50% !important;
         }
+
+        #moi {
+            width: 75%;
+            height: 75%;
+        }
     }
+
 }
 
 /*---------------------------------------------------------------------------------*/
@@ -185,5 +205,9 @@
     /*contact*/
     #verifcontact {
         width: 90%;
+    }
+
+    .form-control{
+        width: 100% !important;
     }
 }

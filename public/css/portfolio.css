@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*------------------------------------------------------------------------------*/
+/*Principal*/
+/*------------------------------------------------------------------------------*/
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #03717B !important;
+}
+
+.site-header {
+    background-color: white;
+}
+
+#carte {
+    position: relative;
+    min-height: calc(100vh - 253px) !important;
+}
+
+.container-fluid .card {
+    position: relative;
+    background-color: white;
+    margin: 30px 10px !important;
+    padding: 20px 15px !important;
+    box-shadow: 0 0 5px 3px rgb(254, 198, 79);
+    transition: 0.3s ease-in-out;
+}
+
+.container-fluid .card img {
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    top: -55px;
+    filter: brightness(50%)
+}
+
+.container-fluid .card-body {
+    position: relative;
+    /*visibility: hidden;*/
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container-fluid .card:hover .card-body {
+    visibility: visible;
+    opacity: 1;
+    top: -40px;
+    transition-delay: 0.3s;
+}
+
+hr {
+    background-color: rgb(254, 198, 79);
+    border: none;
+    height: 1px;
+}
+
+.btn {
+    background-color: #03717B !important;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.card-img-overlay{
+    z-index: 10 !important;
+}
+
+/*------------------------------------------------------------------------------*/
+/*Desktops*/
+/*------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 768px) {
+
+    .container-fluid .card {
+        width: 325px;
+        height: 160px;
+    }
+
+    .container-fluid .card:hover {
+        height: 350px;
+    }
+
+    .container-fluid .card img {
+        top: -55px;
+    }
+
+}
+
+/*---------------------------------------------------------------------------------*/
+/*Petits Ecrans*/
+/*---------------------------------------------------------------------------------*/
+@media screen and (max-width: 768px){
+    .container-fluid .card {
+        width: 350px;
+        height: 200px;
+        top: 70px;
+    }
+
+    .container-fluid .card:hover {
+        height: 360px;
+    }
+
+}

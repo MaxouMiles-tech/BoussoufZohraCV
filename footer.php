@@ -4,7 +4,7 @@
 <!--pied de page -->
 <div id="navbot" class="">
     <nav class="navbar color-primary-0 justify-content-between navbar-expand-lg text-white">
-<!--        nom-->
+        <!--        nom-->
         <div class="mb-2 d-none d-lg-flex">
             &copy;
             <?php
@@ -13,17 +13,16 @@
             ?>
             Zohra Boussouf
         </div>
-<!--        reseaux-->
+        <!--        reseaux-->
         <div class="p-0 m-auto m-lg-0">
             <span class="mr-3"> On reste en contact? </span>
-            <a class="mr-md-3" href="https://www.linkedin.com/in/zohra-boussouf/" target="_blank" title="Profil LinkedIn">
+            <a class="mr-md-3 mr-2" href="https://www.linkedin.com/in/zohra-boussouf/" target="_blank"
+               title="Profil LinkedIn">
                 <img id="linkedin" class="social rounded" src="public/images/icoLinkedIn.png" alt="Icone LinkedIn"></a>
-            <a class="mr-md-3" href="https://github.com/MaxouMiles-tech" target="_blank" title="Profil GitHub">
+            <a class="mr-md-3 mr-2" href="https://github.com/MaxouMiles-tech" target="_blank" title="Profil GitHub">
                 <img id="github" class="social rounded" src="public/images/icoGithub.png" alt="Icone Github"></a>
-            <a  class="mr-md-3" href="public/CVZohraBoussouf.pdf" target="_blank" title="CV PDF">
+            <a class="mr-md-3 mr-2" href="public/CVZohraBoussouf.pdf" target="_blank" title="CV PDF">
                 <img id="cv" class="social rounded" src="public/images/icoCv.png" alt="Icone téléchargement CV"></a>
-            <a href="https://dev.amorce.org/boussoufz/" target="_blank" title="Portfolio">
-                <img id="cv" class="social rounded" src="public/images/portfolio.png" alt="Icone Portfolio"></a>
         </div>
     </nav>
 </div>
@@ -34,14 +33,14 @@
 <script src="public/js/app.js"></script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/ulg/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
 </body>

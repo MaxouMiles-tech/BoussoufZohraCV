@@ -11,8 +11,8 @@
     <title>Boussouf Zohra</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!--CSS -->
     <link rel="stylesheet" href='public/css/app.css'/>
@@ -46,15 +46,17 @@
 <div class="container-fluid p-0 m-0">
     <!--titre du site-->
     <div class="text-center card-img-overlay" id="marque">
-            <img  id="imgMarque" src="public/images/marque.png" alt="Logo Nom et Titre" title="Marque">
+        <img id="imgMarque" src="public/images/marque.png" alt="Logo Nom et Titre" title="Marque">
     </div>
-    <div id="TitreVideo" class=" px-3 px-md-5 py-0 m-0 card-img-overlay d-lg-flex flex-column align-items-left justify-content-center  text-left text-white ">
+    <div id="TitreVideo"
+         class=" px-3 px-md-5 py-0 m-0 card-img-overlay d-lg-flex flex-column align-items-left justify-content-center  text-left text-white ">
         <div>
-<!--            <h1 class="font-weight-bold">Boussouf Zohra</h1>-->
+            <!--            <h1 class="font-weight-bold">Boussouf Zohra</h1>-->
             <p class="lead">Hello, je suis actuellement en formation en tant que Concepteur / Développeur</p>
             <p class="lead">d'applications et je suis à la recherche d'un stage non remunéré</p>
             <p class="lead">de 3 mois à partir du 29/03/2021</p>
-            <a id="btnCTA1" class="btn text-white mt-3" target="_blank" href="public/CVZohraBoussouf.pdf" role="button">Télécharger mon CV</a>
+            <a id="btnCTA1" class="btn text-white mt-3" target="_blank" href="public/CVZohraBoussouf.pdf" role="button">Télécharger
+                mon CV</a>
         </div>
     </div>
     <!--video de l'entete-->
