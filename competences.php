@@ -5,14 +5,14 @@
 <div class="row skills pt-5">
     <div class="titre m-auto">
         <div class="col competence-title m-auto text-center">
-            <h2 class=" wow animate__bounce " >Mes compétences</h2>
+            <h2 class=" wow animate__bounce ">Mes compétences</h2>
         </div>
         <div class="col p-0 m-auto" id="tiret"></div>
     </div>
 </div>
 <!--section-->
 <div class="row skills-sec mt-3 d-flex p-3 justify-content-between">
-<!--competence info-->
+    <!--competence info-->
     <div class="it-skills col-lg-5 d-flex flex-lg-row flex-wrap mb-sm-0 mb-5">
         <div class="col-sm-4 col-6 d-flex flex-column justify-content-center ">
             <img class="competence-img mx-auto my-0" src="public/images/competence/html.png" alt="Logo HTML" id="html">
@@ -76,17 +76,34 @@
             </div>
         </div>
     </div>
-<!--    soft skills-->
+    <!--    soft skills-->
     <div class="col-lg-5 soft-skills  pt-sm-0 pt-5 ">
-        <img class="img-fluid wow animate__fadeInRight" src="public/images/competence/softSkills.png" alt="=Soft Skills">
+        <img class="img-fluid wow animate__fadeInRight" src="public/images/competence/softSkills.png"
+             alt="=Soft Skills">
     </div>
 </div>
 
 <!--    CTA portfolio-->
-<div class="row" id="CTAportfolio">
-    <div class="col d-flex justify-content-center mt-5 p-3 mr-5 m-auto">
-        <a role="button" class="btn text-white" href="portfolio.php" title="Portfolio" id="cv">Découvrez mon portfolio
-            <img class="rounded portfolio" src="public/images/competence/pf.png" alt="Image représentant Portfolio"></a>
+<div class="row skills-portfolio  d-flex justify-content-center text-center px-3 ">
+    <div class="card text-white " id="cartePortfolio">
+        <div id="TitrePortfolio" class="card-img-overlay">
+            <p class="d-none d-md-block display-3 card-title ">Portfolio</p>
+            <p class="card-text d-none d-md-block  ">Visitez les réalisations de projets qui m'ont permis d'acquérir de
+                l'expérience pratique dans le développement WEB</p>
+            <div class="d-none d-md-block m-auto">
+                <a role="button" class="btn text-white" href="portfolio.php" title="Portfolio" id="cv">Découvrez mon
+                    portfolio
+                    <img class="rounded " src="public/images/competence/pf.png"
+                         alt="Image représentant Portfolio" id="icoPortfolio"></a>
+            </div>
+            <div class="d-block d-md-none m-auto">
+                <a role="button" class="btn text-white" href="portfolio.php" title="Portfolio" id="cv">Portfolio
+                    <img class="rounded " src="public/images/competence/pf.png"
+                         alt="Image représentant Portfolio" id="icoPortfolio"></a>
+            </div>
+        </div>
     </div>
-<!--    <img class="img-fluid" src="public/images/competence/pf.jpeg" alt="Bureau" id="bureau">-->
+    <div id="portfolio">
+        <img src="public/images/competence/pf.jpeg" alt="Photo flou de bureau" id="bureau">
+    </div>
 </div>
