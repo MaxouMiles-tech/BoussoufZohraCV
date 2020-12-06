@@ -2,7 +2,7 @@
 <!--Timeline-->
 <!--------------------------------------------------------------------------------------------------------------------->
 <!--titre-->
-<div class="row timeline pt-5">
+<div class="row timeline py-5">
     <div class="titre m-auto">
         <div class="col timeline-title m-auto text-center">
             <h2 class=" wow animate__bounce ">Expériences</h2>
@@ -11,7 +11,7 @@
     </div>
 </div>
 <!--section-->
-<div class=" row timeline-sec">
+<div class=" row timeline-sec my-5">
     <ol class="timeline  d-lg-flex justify-content-around mx-lg-auto">
         <!--    description des experiences-->
         <li>

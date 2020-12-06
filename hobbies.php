@@ -2,7 +2,7 @@
 <!--hobbies-->
 <!--------------------------------------------------------------------------------------------------------------------->
 <!--titre-->
-<div class="row hobbies pt-5">
+<div class="row hobbies py-5">
     <div class="titre m-auto">
         <div class="col hobbies-title m-auto text-center">
             <h2 class=" wow animate__bounce ">Ce qui m'anime</h2>
@@ -11,7 +11,7 @@
     </div>
 </div>
 <!--section-->
-<div class="row hobbies-sec px-2">
+<div class="row hobbies-sec py-5 my-5 px-2">
 <!--    premiere ligne -->
     <div class="mt-5 mx-auto d-flex flex-row ">
         <div class="card card-hobbies" id="avion">
@@ -28,7 +28,7 @@
         </div>
     </div>
     <!--    seconde ligne -->
-    <div class="mb-5 mx-auto d-flex flex-row">
+    <div class="mb-5 pb-5 mx-auto d-flex flex-row">
         <div class="card card-hobbies" id="icorando">
             <img class="img-fluid" src="public/images/hobbies/icorando.png" alt="Icone de chaussures de randonnées">
         </div>

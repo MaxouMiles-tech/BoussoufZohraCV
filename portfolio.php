@@ -40,9 +40,12 @@
     <div class="d-flex justify-content-center row site-header p-3">
         <!-- banniere -->
         <div class="d-flex justify-content-center" id="banniere">
-            <img class="img-fluid" src="public/images/portfolio/logozb.png" alt="Zohra Boussouf" id="logozb">
+            <a href="index.php">
+                <img class="img-fluid" src="public/images/portfolio/logozb.png" alt="Zohra Boussouf" id="logozb">
+            </a>
         </div>
     </div>
+    <h1 class="text-center text-white pt-5 mt-5">Portfolio</h1>
     <div class="row d-flex flex-wrap align-items-center justify-content-center" id="carte">
         <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-end">
             <div class="card ">
@@ -56,6 +59,8 @@
                     </p>
                     <a href="https://dev.amorce.org/boussoufz/Jarditou/" role="button" target="_blank"
                        class="btn mt-2 p-2">Voir le site</a>
+                    <a href="https://github.com/MaxouMiles-tech/JarditouWamp" role="button" target="_blank"
+                       class="btn mt-2 p-2 mr-3">Voir le code</a>
                 </div>
             </div>
         </div>
@@ -68,8 +73,10 @@
                     <p class="card-text mt-2">
                         Projet AFPA techniques de base 20103 : création d'un CV en ligne (première version).
                     </p>
-                    <a href="https://dev.amorce.org/boussoufz/zohracv/" role="button" class="btn mt-2 p-2"
+                    <a href="https://dev.amorce.org/boussoufz/zohracv/" role="button" class="btn mt-2 p-2 mr-3"
                        target="_blank">Voir le site</a>
+                    <a href="https://github.com/MaxouMiles-tech/zohracv" role="button" target="_blank"
+                       class="btn mt-2 p-2">Voir le code</a>
                 </div>
             </div>
         </div>
@@ -83,7 +90,9 @@
                     <p class="card-text mt-2">
                         Projet personnel : création de la maquette et d'un site Web pour un photographe professionnel.
                     </p>
-                    <a href="#" role="button" target="_blank" class="btn mt-2 p-2">Voir le site</a>
+                    <a href="http://chaabanemalki.alwaysdata.net/index.php" role="button" target="_blank" class="btn mt-2 mr-3 p-2">Voir le site</a>
+                    <a href="https://github.com/MaxouMiles-tech/HM-photography" role="button" target="_blank"
+                       class="btn mt-2 p-2">Voir le code</a>
                 </div>
             </div>
         </div>
